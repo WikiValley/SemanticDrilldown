@@ -194,7 +194,7 @@ class SDBrowseDataPage extends QueryPage {
 		// immediate subcategories, for display, and the other for
 		// all subcategories, sub-subcategories etc., for querying.
 		$this->next_level_subcategories = SDUtils::getCategoryChildren( $actual_cat, true, 1 );
-		$this->all_subcategories = SDUtils::getCategoryChildren( $actual_cat, true, 10 );
+		$this->all_subcategories = SDUtils::getCategoryChildren( $actual_cat, true, 3 );
 	}
 
 	function makeBrowseURL( $category, $applied_filters = [], $subcategory = null, $filter_to_remove = null ) {
@@ -467,7 +467,7 @@ END;
 END;
 		}
 		foreach ( $categories as $i => $category ) {
-			$category_children = SDUtils::getCategoryChildren( $category, false, 5 );
+			$category_children = SDUtils::getCategoryChildren( $category, false, 3 );
 			$category_str = $category . " (" . count( array_unique( $category_children ) ) . ")";
 			if ( str_replace( '_', ' ', $this->category ) == $category ) {
 				$text .= '						<li class="category selected">';
@@ -1141,7 +1141,7 @@ END;
 			// display if necessary
 			$subcat_values = [];
 			foreach ( $this->next_level_subcategories as $i => $subcat ) {
-				$further_subcats = SDUtils::getCategoryChildren( $subcat, true, 10 );
+				$further_subcats = SDUtils::getCategoryChildren( $subcat, true, 3 );
 				$num_results = $this->getNumResults( $subcat, $further_subcats );
 				$subcat_values[$subcat] = $num_results;
 			}
