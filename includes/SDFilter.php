@@ -33,7 +33,7 @@ class SDFilter {
 
 	public function setCategory( $cat ) {
 		$this->category = $cat;
-		$this->allowed_values = SDUtils::getCategoryChildren( $cat, false, 5 );
+		$this->allowed_values = SDUtils::getCategoryChildren( $cat, false, 3 );
 	}
 
 	public function addRequiredFilter( $filterName ) {
