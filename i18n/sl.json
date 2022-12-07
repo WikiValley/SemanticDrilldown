@@ -7,6 +7,7 @@
 	},
 	"sd_browsedata_other": "Drugo",
 	"sd_browsedata_none": "Nič",
+	"sd_browsedata_or": "ali",
 	"sd_browsedata_daterangestart": "Začetek:",
 	"sd_browsedata_daterangeend": "Konec:",
 	"sd-pageschemas-filter": "Filter",
