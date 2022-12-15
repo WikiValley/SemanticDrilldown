@@ -8,13 +8,14 @@
 			"Oapbtommy",
 			"Roc michael",
 			"Winston Sung",
-			"Wrightbus"
+			"Wrightbus",
+			"捍粵者"
 		]
 	},
 	"semanticdrilldown-desc": "用於在語義數據之中導航的鑽取界面",
 	"specialpages-group-sd_group": "語義鑽取",
 	"browsedata": "瀏覽資料",
-	"sd_browsedata_choosecategory": "選擇一個分類",
+	"sd_browsedata_choosecategory": "選擇分類",
 	"sd_browsedata_viewcategory": "檢視分類",
 	"sd_browsedata_docu": "點擊下面的一個或多個項目來縮小您的結果。",
 	"sd_browsedata_subcategory": "子分類",
