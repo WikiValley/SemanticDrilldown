@@ -11,5 +11,6 @@
 	"sd_browsedata_daterangestart": "Začetek:",
 	"sd_browsedata_daterangeend": "Konec:",
 	"sd-pageschemas-filter": "Filter",
-	"sd-pageschemas-values": "Vrednosti"
+	"sd-pageschemas-values": "Vrednosti",
+	"sd_browsedata_search": "Išči"
 }
