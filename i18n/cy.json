@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Afalau",
 			"Lloffiwr"
 		]
 	},
@@ -22,6 +23,6 @@
 	"sd_browsedata_addanothervalue": "Clicio'r saeth i ychwanegu gwerth arall",
 	"sd_browsedata_daterangestart": "Dechrau:",
 	"sd_browsedata_daterangeend": "Diwedd:",
-	"sd-pageschemas-filter": "Hidl",
+	"sd-pageschemas-filter": "Hidlydd",
 	"sd-pageschemas-values": "Gwerthoedd"
 }
